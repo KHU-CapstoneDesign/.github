@@ -165,8 +165,8 @@ $ npm start
 
 **[범행 정보 입력]**
 
- <img src="img/image6.png" width="49%"/>
- <img src="img/image7.png" width="49%"/>
+ <img src="img/image6.png" width="45%"/>
+ <img src="img/image7.png" width="45%"/>
 
 - 피해자의 증언을 토대로 한 범행 장소와 날짜 및 시간 입력
 - 장소 입력을 위해 Kakao API 사용
@@ -177,7 +177,7 @@ $ npm start
 
 **[결과 화면]**
 
- <img src="img/image8.png" width="49%"/>
+ <img src="img/image8.png" width="45%"/>
 
 - **불법촬영 가능성 예측 판단**: 총 5단계(매우 높음/높음/보통/낮음/매우 낮음)로 분류
 - **근거 데이터 제시**: 결과에 따른 근거 데이터 제시
@@ -186,8 +186,8 @@ $ npm start
 
 **[캐시파일]**
 
- <img src="img/image15.png" width="49%"/>
- <img src="img/image16.png" width="49%"/>
+ <img src="img/image15.png" width="45%"/>
+ <img src="img/image16.png" width="45%"/>
 
 - SODA 카메라 앱으로 찍고 삭제한 사진에 대해 캐시 파일로 복구하여 범행 사진 확인 가능
 - 유해 사진(범행 사진) 판단을 위해 Google Vision API 사용
@@ -196,8 +196,8 @@ $ npm start
 
 **[갤러리/휴지통 사진]**
 
- <img src="img/image13.png" width="49%"/>
- <img src="img/image14.png" width="49%"/>
+ <img src="img/image13.png" width="45%"/>
+ <img src="img/image14.png" width="45%"/>
 
 - 갤러리와 휴지통에 있는 사진 확인 가능
 - 유해 사진(범행 사진) 판단을 위해 Google Vision API 사용
@@ -206,7 +206,7 @@ $ npm start
 
 **[GPS]**
 
- <img src="img/image9.png" width="49%"/>
+ <img src="img/image9.png" width="45%"/>
 
 - 범행 위치로부터 반경 50m 내에 있는 위치 반환
 - WIFI BSSID -> 위도, 경도 변환을 위해 Google Geolocation API 사용
@@ -215,7 +215,7 @@ $ npm start
 
 **[사진 촬영 로그]**
 
- <img src="img/image10.png" width="49%"/>
+ <img src="img/image10.png" width="45%"/>
 
 - 범행 시간대 기본 카메라 앱으로 촬영한 로그 확인 가능
 
@@ -223,8 +223,8 @@ $ npm start
 
 **[앱 사용 로그]**
 
- <img src="img/image11.png" width="49%"/>
- <img src="img/image12.png" width="49%"/>
+ <img src="img/image11.png" width="45%"/>
+ <img src="img/image12.png" width="45%"/>
 
 - 범행 시간대 외부 카메라 앱과 클라우드 앱의 실행 기록 확인 가능
 
