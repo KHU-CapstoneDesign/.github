@@ -120,8 +120,10 @@ $ npm start
 
 **[가이드 화면]**
 
+<p>
  <img src="img/image1.png" width="49%"/>
  <img src="img/image2.png" width="49%"/>
+</p>
 
 - 포렌식을 위해 사전에 설정되어야 하는 항목에 대한 가이드 제공
 - 이전, 다음, 건너뛰기 가능
@@ -140,8 +142,10 @@ $ npm start
 
 **[데이터 추출(포렌식)]**
 
+<p>
  <img src="img/image4.png" width="49%"/>
  <img src="img/image5.png" width="49%"/>
+</p>
 
 - 모달창을 통해 데이터 추출 진행 상태 확인 가능
 - 데이터 추출하기 버튼 클릭 시 아래와 같이 총 6가지 데이터에 대한 **포렌식 진행 (배치파일 실행)**
@@ -165,8 +169,10 @@ $ npm start
 
 **[범행 정보 입력]**
 
+<p>
  <img src="img/image6.png" width="45%"/>
  <img src="img/image7.png" width="45%"/>
+</p>
 
 - 피해자의 증언을 토대로 한 범행 장소와 날짜 및 시간 입력
 - 장소 입력을 위해 Kakao API 사용
@@ -186,8 +192,10 @@ $ npm start
 
 **[캐시파일]**
 
+<p>
  <img src="img/image15.png" width="45%"/>
  <img src="img/image16.png" width="45%"/>
+</p>
 
 - SODA 카메라 앱으로 찍고 삭제한 사진에 대해 캐시 파일로 복구하여 범행 사진 확인 가능
 - 유해 사진(범행 사진) 판단을 위해 Google Vision API 사용
@@ -196,8 +204,10 @@ $ npm start
 
 **[갤러리/휴지통 사진]**
 
+<p>
  <img src="img/image13.png" width="45%"/>
  <img src="img/image14.png" width="45%"/>
+</p>
 
 - 갤러리와 휴지통에 있는 사진 확인 가능
 - 유해 사진(범행 사진) 판단을 위해 Google Vision API 사용
@@ -222,9 +232,10 @@ $ npm start
  <br/>
 
 **[앱 사용 로그]**
-
+<p>
  <img src="img/image11.png" width="45%"/>
  <img src="img/image12.png" width="45%"/>
+</p>
 
 - 범행 시간대 외부 카메라 앱과 클라우드 앱의 실행 기록 확인 가능
 
