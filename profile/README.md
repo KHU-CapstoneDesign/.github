@@ -83,6 +83,16 @@ $ npm i
 $ npm start
 ```
 
+**Back-end**
+
+```sh
+# src/main/resources/application.properties에서 가장 아래에 추가 정보 입력
+# Google Cloud에서 인증 키 파일 및 Google Geolocation API key를 가져와야 함(무료 사용기간 만료 시 소액의 API 사용료 지불 가능성 있음)
+google.geolocation.api.key=***YOUR GOOGLE GEOLOCATION API KEY***
+google.cloud.credentials.path=***YOUR LOCAL APSOLUTE PATH OF GOOGLE CLOUD CREDENTIAL FILE***
+```
+
+
 ## 프로젝트 구조
 
 ### Front-end
@@ -115,6 +125,69 @@ $ npm start
      └📜webpack.config.js
      └ ...
 ```
+
+### Back-end
+
+```
+ 📦/mobile-forensics
+     └📂src
+      └📂main
+       └📂java
+        └📂com.capstone_design.mobile_forensics
+         └📂file
+          └📂api
+           └📜AnalysisResult.java
+           └📜SafeSearchResponse.java
+           └📜SafeSearchServive.java
+          └📜FileController.java
+          └📜FileService.java
+          └📜ImageFile.java
+          └📜ImageFileRepository.java
+          └ ...
+          
+         └📂log
+          └📂api
+           └📜GeolocationRequest.java
+           └📜GeolocationResponse.java
+           └📜GeolocationService.java
+          └📂dto
+           └📜LogEntry.java
+           └ ...
+          └📂entity
+           └📜LogEntityEntry.java
+           └ ...
+          └📂repository
+          └📜LogProcessService.java
+          └ ...
+
+         └📂socket
+          └📜SocketConfig.java
+          └📜SocketNotifyController.java
+          └📜SocketService.java
+
+         └📂web
+          └📜WebController.java
+          └📜WebService.java
+          └📜UserData.java
+          └📜UserDTO.java
+          └📜UserRepository.java
+          └📂ResponseDTO
+           └📜WholeData.java
+          └📜DataDetectService.java
+          └ ...
+
+         └📜CorsConfig.java
+         └📜GoogleInitializer.java
+         └📜MobileForensicsApplication.java
+         └ ...
+       └📂resources
+        └📜application.properties
+
+      └📂test     
+     └📜build.gradle
+     └ ...
+```
+
 
 ## 화면 구성
 
